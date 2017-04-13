@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+    <div id="slider1"></div>
+    <hr />
+    <div id="slider2"></div>
+    
+    <script src="slider.js"></script>
+    <script>
+     var imgs1 = [
+        'http://38.media.tumblr.com/avatar_8f1ac442d592_128.png',
+        'http://papillonvolant.p.a.pic.centerblog.net/s1vh7z1n.jpg',
+        'https://33.media.tumblr.com/avatar_17135998b3f5_128.png',
+        'https://33.media.tumblr.com/avatar_52e80e3ad564_128.png'
+      ];
+      var imgs2 = [
+        'http://38.media.tumblr.com/avatar_1d84667d2b3a_128.png',
+        'http://38.media.tumblr.com/avatar_77caa9553877_128.png',
+        'http://ediogames.com/uploaded_files/avatars/a54b5695412c7e55d449f1146cd2a6ab128.png'
+      ];
+      new Slider("slider1", imgs1, {
+        delay: 2000
+      });
+      new Slider("slider2", imgs2);
+    </script>
+    
+  </body>
+</html>
